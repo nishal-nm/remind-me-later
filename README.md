@@ -30,7 +30,7 @@ The API endpoint to create a reminder is available at `/api/reminder/create/`. Y
  "date": "2025-05-14",  
  "time": "16:30",  
  "message": "Attend team meeting",  
- "reminder_type": "email"  
+ "method": "EMAIL"  
 }
 
 The response will return the created reminder data, including the ID, message, date, time, and reminder type.
